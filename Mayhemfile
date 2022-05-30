@@ -1,8 +1,5 @@
 project: lwgps
-target: lwgps
-
-image: ghcr.io/ebell495/lwgps:latest
-duration: 300
+target: fuzz
 
 cmds:
     - cmd: ./fuzz
