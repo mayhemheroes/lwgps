@@ -5,4 +5,4 @@ WORKDIR /LWGPS/fuzz
 RUN make
 
 FROM debian:bookworm-slim
-COPY --from=builder /LWGPS/fuzz/fuzz .
+COPY --from=builder /LWGPS/fuzz/fuzz_nmea_parser .

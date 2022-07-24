@@ -1,6 +1,6 @@
 project: lwgps
-target: fuzz
+target: fuzz_nmea_parser
 
 cmds:
-    - cmd: ./fuzz
+    - cmd: ./fuzz_nmea_parser
       libfuzzer: true
